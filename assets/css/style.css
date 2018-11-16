@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'source';
+    src: url('../font/source.eot');
+    src: url('../font/source.eot?#iefix') format('embedded-opentype'),
+         url('../font/source.woff') format('woff'),
+         url('../font/source.ttf') format('truetype'),
+         url('../font/source.svg#webfont34M5alKg') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+}  
+.bodyColor{color:#588dbb!important;}
+.relative {border:1px solid #ddd;padding:1.5rem;}
+.relative .main{margin-bottom:20px;}
+.relative .main li{border-bottom:1px solid #ddd;line-height:35px;}
+.relative .main li i{float:right;color:#999;font-weight:normal;font-size:1rem;cursor:pointer;}
+.formTip{background:none;color:#dd514c;border:none;padding:.25em 1.2em!important;}
+.am-table>tbody>tr>td, .am-table>tbody>tr>th, .am-table>tfoot>tr>td, .am-table>tfoot>tr>th, .am-table>thead>tr>td, .am-table>thead>tr>th{vertical-align: middle;}
+.am-table tr th{color:#fff!important;background:#588dbb;}
+.translatorR{max-width:300px;}
+.avatar{margin-bottom:20px;}
+.translatorR img{max-width:150px;}
+.translatorR .btn{display:block;margin-top:20px;max-width:150px;}
+.am-padding-right-5{padding-right:5px;}
+.am-pagination>li{font-size:14px;}
+.am-modal-dialog tr{text-align:left;}
+.am-breadcrumb{margin-top:5px;}
+.up-img-qrcode canvas{padding:5px;border:1px solid #ddd;background:#fff;}
+.prefix,.suffix{display:none;letter-spacing:6px;}
+/* WAP菜单 */
+.wapMenu .m{display:none;}
+
+
+
+
+@media screen and (max-width: 1260px) {
+	.tpl-amazeui-form .am-form-label{font-size:12px;}
+	.translatorR img{width:100%;}
+  .translatorR .btn{font-size:1.2rem;}
+  .translatorR .am-btn i{display:none;}
+}
+
+@media screen and (max-width: 1024px) {
+	.translatorR{max-width:100%;text-align:center;margin-bottom:20px;}
+	.translatorR span{margin:0 auto;margin-top:15px;}
+	.tpl-header-nav-hover-ico{display:none;}
+	.wapMenu .m{display:block;}
+	.wapMenu li:nth-child(1){display:none;}
+	.am-topbar-inverse .am-topbar-nav>li>a{height:35px;line-height:35px;}
+	.wapMenu li:nth-child(2)>a{text-align:right;height:45px;line-height:45px;}
+	.wapMenu li.m>a{color:#555;}
+	.wapMenu li.m>a span{margin-left:5px;}
+	.avatar{float:left;width:45%;}
+	.translatorR .up-img-qrcode{float:right;width:45%;}
+	.translatorR .btn{margin:20px auto 0 auto;}
+}
+
+@media screen and (max-width: 640px) {
+	[class*=am-u-]{padding:0;}
+	.tpl-amazeui-form .am-form-label{padding-bottom:.6em;}
+
+}
